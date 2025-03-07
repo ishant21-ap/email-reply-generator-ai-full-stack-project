@@ -1,24 +1,29 @@
-# AI-Powered Email Reply Generator (Chrome Extension)
+# Email Reply Generator using AI
 
 ## Overview
-The **AI-Powered Email Reply Generator** is a Chrome extension that integrates directly into Gmail, adding an **"AI Reply"** button for seamless email responses. Utilizing Google's Gemini AI API, the extension generates intelligent, tone-adaptive replies instantly, enhancing productivity and communication efficiency. 
+The **Email Reply Generator** is a web application that utilizes AI to generate email replies based on the input email content and an optional tone preference. It is built with React for the frontend and Spring Boot for the backend, using Google's Gemini AI API for natural language processing.
 
 ## Features
-- **"AI Reply" button** directly integrated into Gmail.
-- Generate AI-powered email responses instantly.
+- Generate AI-powered email replies instantly.
 - Choose a preferred tone: **Professional, Casual, or Friendly**.
-- One-click copy functionality for quick usage.
+- Copy generated replies with a single click.
 - Fully responsive UI with Tailwind CSS.
 
 ## Tech Stack
-### Frontend (Chrome Extension)
+### Frontend
 - **React** (Hooks, State Management)
-- **Manifest v3** (Chrome Extensions API)
-- **Tailwind CSS** (Styling)
 - **Axios** (API requests)
+- **Tailwind CSS** (Styling)
 
 ### Backend
 - **Spring Boot** (REST API)
 - **WebClient** (HTTP client for API requests)
 - **Lombok** (Simplified Java code)
 - **Google Gemini AI API** (AI-generated replies)
+
+## Installation and Setup
+
+### Prerequisites
+- Node.js and npm (for frontend)
+- Java 17+ and Maven (for backend)
+- Google Gemini AI API key
